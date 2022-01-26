@@ -1,5 +1,5 @@
-AluraCord -  📨📚
+# **AluraCord -  📨📚**
 
-Projeto criado durante a imersão React Next.js
+### Projeto criado durante a imersão React Next.js
 
-Junto dos mestres Mario Souto e Paulo Silveira
+### Junto dos mestres Mario Souto e Paulo Silveira
