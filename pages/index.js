@@ -31,7 +31,7 @@ export default function PaginaInicial() {
                 styleSheet={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     backgroundColor: appConfig.theme.colors.primary[500],
-                    backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+                    backgroundImage: 'url(https://images.unsplash.com/photo-1627399270231-7d36245355a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)',
                     backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
                 }}
             >
@@ -56,7 +56,7 @@ export default function PaginaInicial() {
                         onSubmit={function (infosDoEvento) {
                             infosDoEvento.preventDefault();
                             console.log('Alguém submeteu o form');
-                            roteamento.push('/chat');
+                            roteamento.push(`/chat?username=${username}`);
                             // window.location.href = '/chat';
                         }}
                         styleSheet={{
