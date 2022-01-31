@@ -3,6 +3,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import appConfig from '../config.json';
 
+
 function Titulo(props) {
     const Tag = props.tag || 'h1';
     return (
@@ -19,21 +20,8 @@ function Titulo(props) {
     );
 }
 
-// Componente React
-// function HomePage() {
-//     // JSX
-//     return (
-//         <div>
-//             <GlobalStyle />
-//             <Titulo tag="h2">Boas vindas de volta!</Titulo>
-//             <h2>Discord - Alura Matrix</h2>
-//         </div>
-//     )
-// }
-// export default HomePage
-
 export default function PaginaInicial() {
-    // const username = 'omariosouto';
+    // const username = '';
     const [username, setUsername] = React.useState('felipedac');
     const roteamento = useRouter();
 
