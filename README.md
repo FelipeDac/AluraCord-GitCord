@@ -1,4 +1,4 @@
-# **AluraCord -  📨📚**
+# **AluraCord - GitCord  📨📚**
 
 ### Projeto criado durante a imersão React Next.js
 
