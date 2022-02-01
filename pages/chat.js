@@ -84,7 +84,7 @@ export default function ChatPage() {
                     flex: 1,
                     boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
                     borderRadius: '5px',
-                    backgroundColor: appConfig.theme.colors.neutrals[700],
+                    backgroundColor: appConfig.theme.colors.transparente.fundo,
                     height: '100%',
                     maxWidth: '95%',
                     maxHeight: '95vh',
@@ -182,6 +182,7 @@ function MessageList(props) {
             styleSheet={{
                 overflow: 'scroll',
                 display: 'flex',
+                wordBreak: 'break-word',
                 flexDirection: 'column-reverse',
                 flex: 1,
                 color: appConfig.theme.colors.neutrals["000"],
